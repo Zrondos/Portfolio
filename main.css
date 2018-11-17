@@ -2,11 +2,10 @@
     position: absolute;
     z-index:-1;
     width: 100%;
+    bottom:2px;
 }
 
-#navbar div{
-    display:inline; 
-}
+
 
 /* #navbar{
     color: white;
@@ -49,4 +48,39 @@
 
 #portfolio{
     border: 2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    
 }
+
+#admin_panel_image{
+    width: 100%;
+    height: 47.9%;
+}
+
+#admin_panel{
+    width:50%;
+    display:inline-block;
+    text-align:center;
+}
+
+.admin_panel_info{
+    position: relative;
+    border-top: 2px solid black;
+}
+#pokeanalyzer{
+    width:50%;
+    display:inline-block;
+    text-align:center;
+
+}
+
+#pokeanalyzer_image{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.features{
+    text-align:left;
+}
+

@@ -17,56 +17,79 @@
     
 </head>
 <body>
-    <video loop muted autoplay id="video">
-        <source src="background12.mp4#t=10" type="video/mp4">
-    </video>
-    <!-- <div id="navbar">
-        <div id="portfolio">Portfolio</div>
-        <div id="about">About</div>
-        <div id="contact">Contact</div>
-    </div> -->
-    
-    <div id="heading" class="w3-container w3-center w3-animate-opacity">
-        <h2>Zachary Rondos</h2>
-    </div>
+    <div id="page1">
+        <video loop muted autoplay id="video">
+            <source src="background12.mp4#t=10" type="video/mp4">
+        </video>
+        <!-- <div id="navbar">
+            <div id="portfolio">Portfolio</div>
+            <div id="about">About</div>
+            <div id="contact">Contact</div>
+        </div> -->
+        
+        <div id="heading" class="w3-container w3-center w3-animate-opacity">
+            <h2>Zachary Rondos</h2>
+        </div>
 
-    <img src="profile3.gif" id="profile">
+        <img src="profile3.gif" id="profile">
 
-    <div id="tag_line">
-        Full Stack Web Developer
-    </div>
+        <div id="tag_line">
+            Full Stack Web Developer
+        </div>
 
-    <div id="about">
-        <h3>Passionate about creating beautiful seamless websites with a focus on back end development</h3>
-    </div>
+        <div id="about">
+            <h3>Passionate about creating beautiful seamless websites with a focus on back end development</h3>
+        </div>
 
-    <div id="technologies">
-        <img src="ActiveRecord.png">
-        <img src="Ruby_on_Rails_logo.jpg">
-        <img src="html5.png">
-        <img src="javascript.png">
-        <img src="postgresql.webp">
-        <img src="git-logo.png">
-        <img src="python.png">
-        <img src="css3.png">
-        <img src="heroku.png">
+        <div id="technologies">
+            <img src="ActiveRecord.png">
+            <img src="Ruby_on_Rails_logo.jpg">
+            <img src="html5.png">
+            <img src="javascript.png">
+            <img src="postgresql.webp">
+            <img src="git-logo.png">
+            <img src="python.png">
+            <img src="css3.png">
+            <img src="heroku.png">
+        </div>
     </div>
 
     <div id="portfolio">
-            <div class="card">
-                    <div class="card-image">
-                      <img src="background.jpg" class="card_image">
-                      <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#">This is a link</a>
-                    </div>
-                  </div>
+        <div id="admin_panel">
+            <img src="admin_panel.png" id="admin_panel_image">
+            <div class="admin_panel_info">
+                <h3>Olympic Gymnastics Adminstrative Panel</h3>
+                Adminstrative panel for the USA gymnastics. Manage teams by assigning coaches, gymnasts and events.
+                <div class="features">
+                    <ol>
+                        <li>CRUD features using ActiveRecord and PostgreSQL for one-to-one, one-to-many and many-to-many database relationships</li>
+                        <li>Focus on branding UI, simple clean design and effective layout for seamless UX</li>
+                        <li>Utilizing AJAX calls to reflect database changes without reloading page</li>
+                        <li>Custom Rake tasks performed on click and daily via Heroku schedules</li>
+                    </ol>
+                </div>
+                <span>View, Click Through, Github</span>
+            </div>
+        </div>
 
+        <div id="pokeanalyzer">
+            <img src="pokemon.gif" id="pokeanalyzer_image">
+            
+            <h3>Pokemon Team Analyzer</h3>
+            Input your pokemon team for analysis including team strengths and weaknesses
+            <div class="features">
+                <ol>
+                    <li>CRUD features using ActiveRecord and PostgreSQL for one-to-one, one-to-many and many-to-many database relationships</li>
+                    <li>Focus on branding UI, simple clean design and effective layout for seamless UX</li>
+                    <li>Utilizing AJAX calls to reflect database changes without reloading page</li>
+                    <li>Custom Rake tasks performed on click and daily via Heroku schedules</li>
+                </ol>
+            </div>
+            <span>View, Click Through, Github</span>
+        </div>
+
+        <div style="height:100px"></div>
+        
     </div>
 </body>
 
