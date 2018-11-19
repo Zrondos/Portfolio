@@ -1,3 +1,15 @@
+.fade_in{
+    animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
 #video{
     position: absolute;
     z-index:-1;
@@ -14,10 +26,15 @@
     top:1000px;
 } */
 
+#heading{
+    text-align:center;
+}
+
 #profile{
     height: 300px;
     position: absolute;
     left: 547px;
+    box-shadow:2px;
 }
 
 #tag_line{
@@ -39,6 +56,7 @@
     justify-content: space-evenly;
     margin-top: 506px;
     margin-bottom:20px;
+    padding-bottom: 20px;
 }
 
 #technologies img{
@@ -48,39 +66,38 @@
 
 #portfolio{
     border: 2px solid black;
-    display:flex;
-    flex-wrap:wrap;
+    text-align: center;
     
 }
 
-#admin_panel_image{
-    width: 100%;
-    height: 47.9%;
-}
-
 #admin_panel{
-    width:50%;
-    display:inline-block;
     text-align:center;
 }
 
-.admin_panel_info{
-    position: relative;
-    border-top: 2px solid black;
+#admin_panel_image{
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 30px;
 }
+
+#admin_panel_image:hover{
+    border: 2px solid blue;
+}
+
 #pokeanalyzer{
-    width:50%;
-    display:inline-block;
     text-align:center;
 
 }
 
-#pokeanalyzer_image{
-    width: 100%;
-    border-bottom: 2px solid black;
+#pokeanalyzer_image{    
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 30px;
 }
 
-.features{
-    text-align:left;
+#pokeanalyzer_image:hover{
+    border: 2px solid blue;
 }
+
+
 
