@@ -14,7 +14,7 @@
 #video{
     position: absolute;
     z-index:-1;
-    width: 100%;
+    width: 2000px;
     bottom:2px;
     /* overflow-x: hidden; */
     /* position: fixed; */
@@ -40,6 +40,9 @@
     min-height: 100%; */
 }
 
+#page1{
+    overflow-x:hidden;
+}
 
 #heading{
     text-align:center;
