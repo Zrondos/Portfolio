@@ -30,25 +30,38 @@
             <img src="profile3.gif" id="profile">
         </div>
 
+        <div id="contact">
+            <a href="https://www.linkedin.com/in/zachary-rondos/" target="_blank"><img src="linkedin.png"></a>
+            <a href="#"><img src="resume.png"></a>
+            <a href="https://github.com/Zrondos" target="_blank"><img src="github.png"></a>
+            
+        </div>
+
         <div id="tag_line">
-            Full Stack Web Developer
+            <h3>Full Stack Web Developer</h3>
         </div>
 
         <div id="about">
-            <h4>Passionate about creating beautiful seamless websites<br> with a focus on back end development</h4>
+            <h5>I'm passionate about creating beautiful seamless websites<br> with a focus on back end development</h5>
         </div>
 
         <div id="technologies">
-            <img src="ActiveRecord.png">
             <img src="Ruby_on_Rails_logo.jpg">
-            <img src="html5.png">
-            <img src="javascript.png">
-            <img src="postgresql.webp">
-            <img src="git-logo.png">
             <img src="python.png">
+            <img src="ActiveRecord.png">
+            <img src="postgresql.webp">
+            <img src="heroku.png"> 
+            <img src="html5.png">
             <img src="css3.png">
-            <img src="heroku.png">
+            <img src="javascript.png">
+            <img src="git-logo.png">
         </div>
+
+        <div id="see_more">
+            <a href="#portfolio"><img id="see_more_button" src="see_more.png"></a>
+        </div> 
+
+        
     </div>
 
     <div id="portfolio">
@@ -56,7 +69,8 @@
 
         <div id="pokeanalyzer">
             <h3>Pokemon Team Analyzer</h3>
-            <h5>~Input your pokemon team for analysis including team strengths and weaknesses~</h5>
+            <p>~Enter your Pokemon team to view stat averages as well as type resistance, weakness and immunity using interactive charts.<br>
+                Search for Pokemon by number or generate a random team then click "Analyze"~</p>
             <a href="https://pokemonanalyzer.herokuapp.com/" target="_blank">
                 <img src="pokemon.gif" id="pokeanalyzer_image">
             </a>
@@ -66,28 +80,30 @@
                 
                 <div class="features">
                     <ul>
-                        <li>Promised base AJAX calls from two Pokemon API's</li>
+                        <li>Built on Ruby on Rails</li>
+                        <li>Promised base AJAX calls from two API's</li>
                         <li>CSS Grid for full responsiveness</li>
                         <li>Utilize Chart.JS API to create interactive graphs regarding teams strengths and weaknesses</li>
                     </ul>
                 </div>
-                <span>Click Through | <a href="https://github.com/Zrondos/PokeAnalyzer" target="_blank">Github</a></span>
+                <span><a href="https://www.youtube.com/watch?v=Pz5_bVG5C9g">Click Through</a> | <a href="https://github.com/Zrondos/PokeAnalyzer" target="_blank">Github</a></span>
             </div>
         </div>
 
         <div id="admin_panel">
             <h3>Olympic Gymnastics Adminstrative Panel</h3>
-            <h5>~Adminstrative panel for the USA gymnastics. Manage teams by assigning coaches, gymnasts and events~</h5>
+            <p>~Manage the USA gymnastics team by creating gymnasts, coaches, teams and events~</p>
             <a href="https://gymnastics-panel.herokuapp.com/" target="_blank">
                 <img src="admin_panel.png" id="admin_panel_image">
             </a>
             <div class="admin_panel_info">
                 <div class="features">
                     <ul>
-                        <li>CRUD features using ActiveRecord and PostgreSQL for one-to-one, one-to-many and many-to-many database relationships</li>
-                        <li>Focus on branding UI, simple clean design and effective layout for seamless UX</li>
-                        <li>Utilizing AJAX calls to reflect database changes without reloading page</li>
-                        <li>Custom Rake tasks performed on click and daily via Heroku schedules</li>
+                        <li>Built on Ruby on Rails</li>
+                        <li>Database management via PostgreSQL and ActiveRecord for one_to_one, one_to_many and many_to_many relationships</li>
+                        <li>AJAX used to update pages to reflect database changes without reloading page</li>
+                        <li>Custom Raketask used to reset database after use</li>
+                        <li>Heroku Scheduler used to reset database daily at midnight</li>
                     </ul>
                 </div>
                 <span>Click Through | <a href="https://github.com/Zrondos/Admin_Panel" target="_blank">Github</a></span>

@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif; 
 }
 
 .fade_in{
@@ -59,19 +63,36 @@ body{
     width: 100px;
 }
 
+#contact img{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact{
+    text-align: center;
+}
 #see_more{
     text-align: center;
+    margin-top: 20px;
 }
 
 #see_more_button{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
+    transition: all .2s ease-in-out;
+}
+
+#see_more_button:hover { 
+    transform: scale(1.5); 
 }
 
 #portfolio{
-
     text-align: center;
-    
+}
+
+p{
+    font-size: 20px;
 }
 
 #admin_panel{
@@ -90,7 +111,6 @@ body{
 
 #pokeanalyzer{
     text-align:center;
-
 }
 
 #pokeanalyzer_image{    
