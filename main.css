@@ -95,6 +95,19 @@ p{
     font-size: 20px;
 }
 
+#bill_splitter{
+    text-align: center;
+}
+
+#bill_splitter_image{
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+#bill_splitter_image:hover{
+    border: 2px solid blue;
+}
+
 #admin_panel{
     text-align:center;
 }
