@@ -10,6 +10,10 @@ body{
     animation: fadeIn 2s;
 }
 
+p, ul, li{
+    font-size:20px;
+}
+
 @keyframes fadeIn{
     from {
         opacity: 0;
@@ -24,6 +28,7 @@ body{
     z-index:-1;
     width: 2000px;
     bottom:2px;
+    opacity: 0.8;
 }
 
 #page1{
@@ -32,6 +37,7 @@ body{
 
 #heading{
     text-align:center;
+    text-shadow: 1px 1px white;
 }
 
 #profile_pic_container{
@@ -98,7 +104,7 @@ p{
 }
 
 #bill_splitter{
-    text-align: center;
+    display:flex;
 }
 
 #bill_splitter_image{
@@ -106,15 +112,31 @@ p{
     border-radius: 30px;
 }
 
+.bill_splitter_image_container{
+    width: 50%;
+    text-align: center;
+}
+
+#bill_splitter_info_container{
+    text-align: left;
+    margin-left: 15px;
+    width:50%;
+}
+
 
 #admin_panel{
-    text-align:center;
+    display:flex;
 }
 
 #admin_panel_image{
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     border-radius: 30px;
+}
+
+#admin_panel_info_container{
+    text-align: left;
+    margin-left: 15px;
 }
 
 #admin_panel_image:hover{
@@ -123,11 +145,12 @@ p{
 
 #pokeanalyzer{
     text-align:center;
+    display:flex;
 }
 
 #pokeanalyzer_image{    
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     border-radius: 30px;
 }
 
@@ -137,4 +160,14 @@ p{
 
 #bill_splitter_image:hover{
     border: 2px solid blue;
+}
+
+#pokeanalyzer_info{
+    text-align: left;
+    
+}
+
+#pokemonanalyzer_info_container{
+    text-align: left;
+    margin-left: 15px;
 }
