@@ -104,9 +104,6 @@ p{
     border-radius: 30px;
 }
 
-#bill_splitter_image:hover{
-    border: 2px solid blue;
-}
 
 #admin_panel{
     text-align:center;
@@ -136,5 +133,6 @@ p{
     border: 2px solid blue;
 }
 
-
-
+#bill_splitter_image:hover{
+    border: 2px solid blue;
+}
