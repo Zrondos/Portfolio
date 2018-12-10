@@ -11,9 +11,10 @@ body{
 }
 
 p, ul, li{
-    /* font-size:20px; */
-    font-size: 1.4vw;
+    font-size:20px;
+    /* font-size: 1.4vw; */
 }
+
 
 @keyframes fadeIn{
     from {
